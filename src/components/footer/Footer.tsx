@@ -12,7 +12,8 @@ export const Footer = () => {
             effective workouts for holistic progress and results-driven
             transformations.
           </p>
-          <p>© Evogym All Rights Reserved.</p>
+          {/* <p>© Revgym All Rights Reserved.</p> */}
+          <p>Developed by @Emprcode || All Rights Reserved.</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>
