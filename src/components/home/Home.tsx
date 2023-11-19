@@ -1,5 +1,4 @@
 import { SelectedPage } from "@/shared/types";
-import React from "react";
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
@@ -45,9 +44,9 @@ export const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+              Unrivaled gym offering unparalleled fitness classes in world-class
+              studios. Achieve your dream body with us. Shape your future. Join
+              now for the body you've always dreamed of.
             </p>
           </motion.div>
 

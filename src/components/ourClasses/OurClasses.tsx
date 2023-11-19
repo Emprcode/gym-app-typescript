@@ -13,33 +13,37 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Experience our intensive weight training classes, expertly led by seasoned instructors, focused on sculpting and strengthening, guiding you toward your fitness aspirations effectively and efficiently.",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description:
+      "Indulge in our rejuvenating yoga classes, blending mindfulness and movement, guided by experienced instructors, fostering balance, flexibility, and inner peace for holistic wellness.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Join our targeted Ab Core classes, meticulously crafted to strengthen and tone your core muscles, led by expert instructors for effective and transformative results.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Experience the thrill of our adventure classes, blending fitness and excitement with challenging activities, fostering growth, camaraderie, and unforgettable memories for all participants",
     image: image4,
   },
   {
     name: "Fitness Classes",
+    description:
+      "Discover a diverse range of fitness classes tailored to every need, from high-intensity workouts to mind-body practices, fostering holistic well-being and achieving individual fitness goals effectively",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Explore our comprehensive training program offering customized group and private sessions tailored to your fitness goals, led by expert trainers, ensuring personalized guidance and progress in a motivating environment.",
     image: image6,
   },
 ];
@@ -68,10 +72,9 @@ export const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              Dive into a world of fitness tailored just for you! From intensive
+              cardio to calming yoga, our expert-led classes ensure personalized
+              workouts for your unique fitness journey and remarkable progress.
             </p>
           </div>
         </motion.div>
