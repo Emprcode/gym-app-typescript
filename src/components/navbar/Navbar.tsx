@@ -21,7 +21,7 @@ export const Navbar = ({
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   const [isMenuToggled, setIsMenuToggeled] = useState<boolean>(false);
-  const navBarBackground = isTopOfPage ? "" : "ng-primary-100 drop-shadow";
+  const navBarBackground = isTopOfPage ? "" : "bg-primary-100 drop-shadow";
 
   return (
     <nav>
@@ -30,10 +30,13 @@ export const Navbar = ({
       >
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
-            <img src={Logo} alt="logo" />
+            {/* LEFT SIDE */}
+            <img alt="logo" src={Logo} />
+
+            {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
-              <div className={`${flexBetween} w-full `}>
-                <div className={`${flexBetween} gap-8 text-sm `}>
+              <div className={`${flexBetween} w-full`}>
+                <div className={`${flexBetween} gap-8 text-sm`}>
                   <Link
                     page="Home"
                     selectedPage={selectedPage}
@@ -55,10 +58,10 @@ export const Navbar = ({
                     setSelectedPage={setSelectedPage}
                   />
                 </div>
-                <div className={`${flexBetween} gap-8  `}>
+                <div className={`${flexBetween} gap-8`}>
                   <p>Sign In</p>
                   <ActionButton setSelectedPage={setSelectedPage}>
-                    Become a member
+                    Become a Member
                   </ActionButton>
                 </div>
               </div>
@@ -73,16 +76,18 @@ export const Navbar = ({
           </div>
         </div>
       </div>
-      {/* menu bar */}
+
+      {/* MOBILE MENU MODAL */}
       {!isAboveMediumScreens && isMenuToggled && (
         <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
-          {/* icon */}
-          <div className="flex justify-start p-12">
+          {/* CLOSE ICON */}
+          <div className="flex justify-end p-12">
             <button onClick={() => setIsMenuToggeled(!isMenuToggled)}>
               <XMarkIcon className="h-6 w-6 text-gray-400" />
             </button>
           </div>
-          {/* menu items */}
+
+          {/* MENU ITEMS */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
             <Link
               page="Home"
