@@ -11,16 +11,23 @@ import { ClassComponents } from "./ClassComponents";
 
 const classes: Array<ClassType> = [
   {
+    name: "Fitness Classes",
+    description:
+      "Discover a diverse range of fitness classes tailored to every need, from high-intensity workouts to mind-body practices, fostering holistic well-being and achieving individual fitness goals effectively",
+    image: image5,
+  },
+  {
     name: "Weight Training Classes",
     description:
       "Experience our intensive weight training classes, expertly led by seasoned instructors, focused on sculpting and strengthening, guiding you toward your fitness aspirations effectively and efficiently.",
     image: image1,
   },
+
   {
-    name: "Yoga Classes",
+    name: "General Training Classes",
     description:
-      "Indulge in our rejuvenating yoga classes, blending mindfulness and movement, guided by experienced instructors, fostering balance, flexibility, and inner peace for holistic wellness.",
-    image: image2,
+      "Explore our comprehensive training program offering customized group and private sessions tailored to your fitness goals, led by expert trainers, ensuring personalized guidance and progress in a motivating environment.",
+    image: image6,
   },
   {
     name: "Ab Core Classes",
@@ -29,22 +36,17 @@ const classes: Array<ClassType> = [
     image: image3,
   },
   {
+    name: "Yoga Classes",
+    description:
+      "Indulge in our rejuvenating yoga classes, blending mindfulness and movement, guided by experienced instructors, fostering balance, flexibility, and inner peace for holistic wellness.",
+    image: image2,
+  },
+
+  {
     name: "Adventure Classes",
     description:
       "Experience the thrill of our adventure classes, blending fitness and excitement with challenging activities, fostering growth, camaraderie, and unforgettable memories for all participants",
     image: image4,
-  },
-  {
-    name: "Fitness Classes",
-    description:
-      "Discover a diverse range of fitness classes tailored to every need, from high-intensity workouts to mind-body practices, fostering holistic well-being and achieving individual fitness goals effectively",
-    image: image5,
-  },
-  {
-    name: "Training Classes",
-    description:
-      "Explore our comprehensive training program offering customized group and private sessions tailored to your fitness goals, led by expert trainers, ensuring personalized guidance and progress in a motivating environment.",
-    image: image6,
   },
 ];
 
